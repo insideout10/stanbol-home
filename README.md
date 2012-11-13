@@ -15,6 +15,13 @@ This are the repository contents:
         - 1/
 ```
 
+# Installation
+
+Checkout the repository in `/opt/stanbol`:
+```sh
+git clone https://github.com/insideout10/stanbol-home.git /opt/stanbol
+```
+
 ## bin/stanbol
 
 The file `bin/stanbol` is an init.d compatible file to automatically start-up Apache Stanbol at boot. Configure it as follows:

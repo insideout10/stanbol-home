@@ -21,7 +21,7 @@ RUN_FOLDER="$STANBOL_HOME/var/run/1"
 VERSION="0.10.0-SNAPSHOT"
 JAVA_OPTS="-Xmx1g"
 JAR="$STANBOL_HOME/bin/stable/launchers/stable/target/org.apache.stanbol.launchers.stable-$VERSION.jar"
-CMD="java $JAVA_OPTS -jar $JAR"
+CMD="java $JAVA_OPTS -server -jar $JAR"
 LABEL="Apache Stanbol"
 
 PID_FILE=/var/run/stanbol.pid
